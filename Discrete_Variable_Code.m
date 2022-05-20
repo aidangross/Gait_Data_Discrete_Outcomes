@@ -14,7 +14,7 @@ if iscell(file_list) == 0
     file_list = {file_list};
 end
 
-y_total = zeros(1,72);
+y_total = zeros(1,88);
 
 for i = 1:length(file_list)
     filename = file_list{i};
@@ -346,7 +346,7 @@ for i = 1:length(file_list)
   
     
     %Calculates the total for y over x number of trials
-    y_total = y_total + cell2mat(y(1,5:76));
+    y_total = y_total + cell2mat(y(1,5:92));
       
 end
 
